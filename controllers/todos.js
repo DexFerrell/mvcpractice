@@ -1,5 +1,5 @@
 const Todo = require('../models/Todo')
-
+// anything to do with ejs must be in the res.render method.
 module.exports = {
     getTodos: async (req,res)=>{
         try{

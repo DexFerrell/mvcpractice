@@ -32,6 +32,7 @@ async function deleteTodo(){
     }
 }
 
+
 async function markComplete(){
     const todoId = this.parentNode.dataset.id
     try{
